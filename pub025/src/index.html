@@ -4,7 +4,7 @@
     <script>
         !function(e,t){var r=e.createElement(t),i=e.getElementsByTagName(t)[0],o={c:null,d:null,e:[],f:[],g:[],h:[],i:[],init:function(e){this.c=e},setUserId:function(e){this.d=e},track:function(e,t){this.e.push([e,t])},setStringUserProfile:function(e,t){this.f.push([e,t])},setIntUserProfile:function(e,t){this.g.push([e,t])},setDoubleUserProfile:function(e,t){this.h.push([e,t])},setDateUserProfile:function(e,t){this.i.push([e,t])}};r.src="https://cdn.reproio.com/web/v0/repro-sdk.min.js",window.reproio=o,r.onload=function(){if(o.d&&reproio.setUserId(o.d),o.c&&reproio.init(o.c),o.e.length>0)for(var e=0;e<o.e.length;e++)reproio.track(o.e[e][0],o.e[e][1]);if(o.f.length>0)for(e=0;e<o.f.length;e++)reproio.setStringUserProfile(o.f[e][0],o.f[e][1]);if(o.g.length>0)for(e=0;e<o.g.length;e++)reproio.setIntUserProfile(o.g[e][0],o.g[e][1]);if(o.h.length>0)for(e=0;e<o.h.length;e++)reproio.setDoubleUserProfile(o.h[e][0],o.h[e][1]);if(o.i.length>0)for(e=0;e<o.i.length;e++)reproio.setDateUserProfile(o.i[e][0],o.i[e][1])},i.parentNode.insertBefore(r,i)}(document,"script");
         reproio.setUserId("toriumin");
-        reproio.init({token:"f8ea2390-2e4d-40db-8661-81df73ca2dad"});
+        reproio.init({token:"f8ea2390-2e4d-40db-8661-81df73ca2dad"}); //staging
         reproio.track('pageView', { url: location.pathname, });
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
