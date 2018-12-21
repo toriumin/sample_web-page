@@ -1,2 +1,5 @@
-# sample_web-page
-cross_browser_testing 用の web_page 
+## what
+- cross_browser_testing 用の web_page です。
+- こちらから無料テンプレートをダウンロードしました
+    - http://www.coolwebwindow.com/
+    
